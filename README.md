@@ -1,4 +1,4 @@
-# Automated Testing Project for OrangeHRM Website :computer:
+# Automated Testing Project for Evomag.ro Website :computer:
 Welcome to the documentation for the automated testing project designed for the **EvoMag.ro website.** This project leverages **Cypress, BDD (Behavior-driven development) with Cucumber.js, and the POM (Page Object Model) framework** to implement a robust suite of tests, ensuring the functionality and reliability.
 
 1. [Introduction/Tools and version](#introduction-notebook)
