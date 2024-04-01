@@ -9,7 +9,7 @@ Welcome to the documentation for the automated testing project designed for the 
 
 # Introduction :notebook:
  
-This project aims to implement automated tests for the OrangeHRM opensource website using Cypress and the combination of BDD (Behavior-driven development) and POM (Page Object Model) frameworks. 
+This project aims to implement automated tests for the evomag website using Cypress and the combination of BDD (Behavior-driven development) and POM (Page Object Model) frameworks. 
 
 
 Tools and Versions
