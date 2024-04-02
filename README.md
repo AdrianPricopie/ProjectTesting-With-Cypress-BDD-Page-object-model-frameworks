@@ -46,6 +46,8 @@ The project structure for the automated testing project of EvoMag.ro website is 
   - **plugins/**: Cypress plugins configuration, if any.
   - **support/**: Contains test configuration and utility functions, including step definitions for Cucumber tests.
   - **pageObjects/**: Contains Page Object Model (POM) classes, each representing a page or component of the EvoMag.ro website. For example, `WishlistPage.js` represents the login page.
+  - **Locators** :This directory may contain files or modules that define the locators (unique identifiers) of UI elements on the page. These are used within the Page Object Model (POM) classes 
+    to locate and interact with the respective elements.
 - **node_modules/**: This directory contains all the Node.js modules installed via npm, including Cypress and any other dependencies.
 - **cypress.json**: Cypress configuration file, which may include settings such as base URL, viewport size, etc.
 - **package.json**: Node.js dependencies and scripts for managing the project.
