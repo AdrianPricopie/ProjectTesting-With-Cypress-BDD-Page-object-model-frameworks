@@ -6,7 +6,7 @@ Welcome to the documentation for the automated testing project designed for the 
 3. [Test Scenario](#test-scenario)
 4. [Getting-Started](#getting-started-pushpin)
 7. [Reports](#reports)
-8. [Conclusion]()
+8. [Conclusion](#conclusion)
 
 # Introduction :notebook:
  
