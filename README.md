@@ -119,4 +119,17 @@ Examples:
   | SmartWatch    | Pret crescator     |
   | Phone         | Pret descrescator  |
 ```
+# Getting Started :pushpin:
+
+To get started with running the automated tests for the EvoMag.ro website, follow these steps:
+
+## Prerequisites
+- Node.js installed on your machine. You can download it from [here](https://nodejs.org/).
+- Git installed on your machine. You can download it from [here](https://git-scm.com/).
+
+## Setup Instructions
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/AdrianPricopie/ProjectTesting-With-Cypress-BDD-Page-object-model-frameworks.git
 
