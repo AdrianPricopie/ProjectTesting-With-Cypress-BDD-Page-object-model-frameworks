@@ -1,5 +1,5 @@
 import {When, Then ,Given, } from "@badeball/cypress-cucumber-preprocessor";
-import WishlistPage from "../Pages/WishlistPage";
+import WishlistPage  from "../../../../../PageObjects/WishlistPage";
 let product_name_for_remove
 let productTitle = []
 Given("I am logged in on the page", () => {
