@@ -15,3 +15,9 @@ This project aims to implement automated tests for the evomag website using Cypr
 Tools and Versions
 - Cypress version: [![Cypress](https://img.shields.io/npm/v/cypress?color=33ff99&label=cypress&logo=cypress&logoColor=33ff99&style=for-the-badge)](https://www.cypress.io)
 - Editor code:**VsCode**
+
+
+EvoMag.ro is one of the largest online stores in Romania, specializing in selling a wide range of electronic products, appliances, IT&C, as well as products for home and garden.
+
+[Documentation website](https://www.evomag.ro/pagini/termeni-de-utilizare/)
+[Website](https://www.evomag.ro/?nocampaignredirect&_gl=1*q66mha*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1s7t4pasZD7s4ZHWI6q9T65gCznvGFuRPnPQYF60YVY_Pg3_9oGHaAaAswEEALw_wcB)
