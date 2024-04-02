@@ -55,4 +55,67 @@ The project structure for the automated testing project of EvoMag.ro website is 
 
 This project structure is designed to promote modularity, maintainability, and scalability of the automated testing suite for the EvoMag.ro website. The use of the Page Object Model (POM) facilitates the abstraction of UI elements and interactions, while the integration with Cucumber enables Behavior-Driven Development (BDD) and enhances collaboration between technical and non-technical stakeholders.
 
+# Test scenario
+
+### Test Scenario for wishlist feature from  wishlist.feature file 
+
+```gherkin
+  Feature: Wishlist feature
+
+  Background: Logged in to account 
+    Given I am logged in on the page 
+
+  @smoke_wishlist_add-item
+  Scenario: Add Item to Wishlist
+    When I select a product from page 
+    And I click on the add Wishlist button
+    And I click on save modify 
+    Then The item should be added to my Wishlist
+ 
+  @regression_wishlist_remove-item
+  Scenario: Remove item from the wishlist
+    When I click on my wishlist
+    And I click on edit wishlist
+    And I attempt to remove an item
+    And I click save button
+    Then the item should be removed from the wishlist
+  
+  @regression_wishlist_add-to-cart
+  Scenario: Add all the item from wishlist to my cart
+    When I click on my wishlist
+    And I click wishlist from my list
+    And Press adauga in cos button
+    Then all the items should be visible in cart
+```
+
+### Test Scenario for Search feature from  Search.feature file 
+
+```gherkin
+Feature:Search Functionality
+
+     Background: Logged in to account 
+     Given I am logged in on the page 
+
+ Scenario Outline: Search multiple products
+    When I introduce "<ValidProduct>" in the search bar
+    And I click the search button
+    Then I should see search results for "<ValidProduct>"
+
+    Examples:
+      | ValidProduct    |
+      | iPhone         |
+      | MacBook        |
+      | SmartWatch   |
+
+  Scenario Outline: Search price range product
+  When I enter "<product>" in the search bar
+  And I click the search button
+  And I click "<keyword>" price filter
+  Then I should see the prices for items in "<keyword>" order
+
+Examples:
+  | product       | keyword           |
+  | SmartWatch    | Pret crescator     |
+  | Phone         | Pret descrescator  |
+```
 
