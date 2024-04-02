@@ -155,6 +155,8 @@ You can access these reports by navigating to the cypress/reports directory and 
 # Reports
 
 ![Reports](https://github.com/AdrianPricopie/ProjectTesting-With-Cypress-BDD-Page-object-model-frameworks/blob/main/Screenshot%202024-04-02%20at%2023.49.54.png)
+![ReportsWishlist](https://github.com/AdrianPricopie/ProjectTesting-With-Cypress-BDD-Page-object-model-frameworks/blob/main/Screenshot%202024-04-02%20at%2023.54.00.png)
+![ReportsSearch](https://github.com/AdrianPricopie/ProjectTesting-With-Cypress-BDD-Page-object-model-frameworks/blob/main/Screenshot%202024-04-02%20at%2023.54.26.png)
 
 all the tests are passed 
 
