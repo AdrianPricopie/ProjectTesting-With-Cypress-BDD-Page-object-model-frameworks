@@ -132,4 +132,21 @@ To get started with running the automated tests for the EvoMag.ro website, follo
 
 ```bash
 git clone https://github.com/AdrianPricopie/ProjectTesting-With-Cypress-BDD-Page-object-model-frameworks.git
+```
+2.Navigate to the project directory:
+```bash
+cd ProjectTesting-With-Cypress-BDD-Page-object-model-frameworks
+```
+3.Install project dependencies using npm:
+```bash
+npm install
+```
+4.Running the tests
+```bash
+npm tests
+```
+After the test execution is completed, Cypress generates detailed test reports with information about passed and failed tests, along with screenshots and error messages.
+You can access these reports by navigating to the cypress/reports directory and opening the HTML files in your browser
+
+
 
