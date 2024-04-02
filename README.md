@@ -148,7 +148,11 @@ npm install
 ```bash
 npm test
 ```
-5.Running the tests with html reports
+5.Run the test by tag
+```bash
+npx cypress run -e  TAGS='@smoke_wishlist_add-item'
+```
+6.Running the tests with html reports
 ```bash
 node cucumber-html-report.js
 ```
