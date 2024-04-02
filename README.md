@@ -163,7 +163,7 @@ You can access these reports by navigating to the cypress/reports directory and 
 
 all the tests are passed 
 
-# Conclusin 
+# Conclusion
 
 The automated testing project for the EvoMag.ro website successfully implements automated tests using Cypress, BDD with Cucumber.js, and the Page Object Model framework. Here are some key conclusions:
 
