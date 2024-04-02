@@ -24,3 +24,9 @@ Tools and Versions
 
 - [Documentation website](https://www.evomag.ro/pagini/termeni-de-utilizare/)
 - [Website](https://www.evomag.ro/?nocampaignredirect&_gl=1*q66mha*_up*MQ..&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1s7t4pasZD7s4ZHWI6q9T65gCznvGFuRPnPQYF60YVY_Pg3_9oGHaAaAswEEALw_wcB)
+
+
+**Behavior-driven development (BDD)** is an Agile software development methodology in which an application is documented and designed around the behavior a user expects to experience when interacting with it. By encouraging developers to focus only on the requested behaviors of an app or program, BDD helps to avoid bloat, excessive code, unnecessary features or lack of focus. This methodology combines, augments and refines the practices used in test-driven development (TDD) and acceptance testing.
+
+[**Cucumber**](https://cucumber.io/) is a testing framework that supports Behavior-Driven Development (BDD). It allows you to write test cases in a human-readable format using the Gherkin syntax, which is easily understandable by both technical and non-technical stakeholders.
+
