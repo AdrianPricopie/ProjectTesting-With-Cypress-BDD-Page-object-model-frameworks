@@ -153,7 +153,7 @@ npm test
 node cucumber-html-report.js
 ```
 After the test execution is completed, Cypress generates detailed test reports with information about passed and failed tests, along with screenshots and error messages.
-You can access these reports by navigating to the cypress/reports directory and opening the HTML files in your browser
+You can access these reports by navigating to the cypress/reports directory and opening the HTML files in your browser(Copy path from index.html and other .html and paste in browser)
 
 # Reports
 
