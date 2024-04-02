@@ -15,10 +15,9 @@ This project aims to implement automated tests for the evomag website using Cypr
 Tools and Versions
 - Cypress version: [![Cypress](https://img.shields.io/npm/v/cypress?color=33ff99&label=cypress&logo=cypress&logoColor=33ff99&style=for-the-badge)](https://www.cypress.io)
 - Editor code:**Visual Studio Code (latest version)**
-- imports :
- - [badeball/cypress-cucumber-preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor)
-
- - [multiple-cucumber-html-reporter --save-dev](https://www.npmjs.com/package/multiple-cucumber-html-reporter)
+- imports 
+     - [badeball/cypress-cucumber-preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor)
+     - [multiple-cucumber-html-reporter --save-dev](https://www.npmjs.com/package/multiple-cucumber-html-reporter)
    
 
 
