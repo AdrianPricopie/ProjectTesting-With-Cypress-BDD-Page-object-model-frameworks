@@ -17,6 +17,7 @@ Tools and Versions
 - Editor code:**Visual Studio Code (latest version)**
 - imports :
  [badeball/cypress-cucumber-preprocessor](https://github.com/badeball/cypress-cucumber-preprocessor)
+ [multiple-cucumber-html-reporter --save-dev](https://www.npmjs.com/package/multiple-cucumber-html-reporter)
    
 
 
