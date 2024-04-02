@@ -145,6 +145,10 @@ npm install
 ```bash
 npm tests
 ```
+5.Running the tests with html reports
+```bash
+node cucumber-html-report.js
+```
 After the test execution is completed, Cypress generates detailed test reports with information about passed and failed tests, along with screenshots and error messages.
 You can access these reports by navigating to the cypress/reports directory and opening the HTML files in your browser
 
