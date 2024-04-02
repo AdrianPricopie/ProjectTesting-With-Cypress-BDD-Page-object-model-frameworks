@@ -30,3 +30,27 @@ Tools and Versions
 
 [**Cucumber**](https://cucumber.io/) is a testing framework that supports Behavior-Driven Development (BDD). It allows you to write test cases in a human-readable format using the Gherkin syntax, which is easily understandable by both technical and non-technical stakeholders.
 
+**Designing a Page Object** in test automation involves creating a representation of a web page or component in your application, encapsulating its elements and behaviors.
+
+# Project structure 
+
+The project structure for the automated testing project of EvoMag.ro website is organized as follows:
+
+
+
+### Project Structure Overview:
+
+- **cypress/**: This directory contains all the Cypress-specific files and folders.
+  - **fixtures/**: Contains static data used by tests, such as JSON files.
+  - **integration/**: Contains test files written in Cucumber's Gherkin syntax, such as `Wishlist.feature`.
+  - **plugins/**: Cypress plugins configuration, if any.
+  - **support/**: Contains test configuration and utility functions, including step definitions for Cucumber tests.
+  - **pageObjects/**: Contains Page Object Model (POM) classes, each representing a page or component of the EvoMag.ro website. For example, `LoginPage.js` represents the login page.
+- **node_modules/**: This directory contains all the Node.js modules installed via npm, including Cypress and any other dependencies.
+- **cypress.json**: Cypress configuration file, which may include settings such as base URL, viewport size, etc.
+- **package.json**: Node.js dependencies and scripts for managing the project.
+- **README.md**: Project documentation, including an overview, setup instructions, and other relevant information.
+
+This project structure is designed to promote modularity, maintainability, and scalability of the automated testing suite for the EvoMag.ro website. The use of the Page Object Model (POM) facilitates the abstraction of UI elements and interactions, while the integration with Cucumber enables Behavior-Driven Development (BDD) and enhances collaboration between technical and non-technical stakeholders.
+
+
