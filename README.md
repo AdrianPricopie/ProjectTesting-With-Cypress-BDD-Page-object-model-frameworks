@@ -4,7 +4,7 @@ Welcome to the documentation for the automated testing project designed for the 
 1. [Introduction/Tools and version](#introduction-notebook)
 2. [Project Structure](#project-structure)
 3. [Test Scenario](#test-scenario)
-4. [Getting-Started](#getting-started--pushpin)
+4. [Getting-Started](#getting-started-pushpin)
 7. [Reports](#reports)
 
 # Introduction :notebook:
