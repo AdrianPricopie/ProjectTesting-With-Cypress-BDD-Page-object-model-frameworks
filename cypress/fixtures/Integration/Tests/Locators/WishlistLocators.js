@@ -1,5 +1,4 @@
 class WishlistLocators {
-    // Selectorii constanți
     swiperSlideSelector = 'div.swiper-slide.product-box.swiper-slide-active';
     productNameSelector = '.product_name';
     saveModifyButtonSelector = '.butn_form';
